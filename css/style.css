@@ -1,0 +1,46 @@
+body{
+    display: grid;
+    grid-template-areas:
+                        "nav"
+                        "banner"
+                        "section"
+                        "footer";
+    grid-template-columns: 99.7vw;
+    grid-template-rows: 2vw 60vw 200vw 130vw;
+    margin: 0vw;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #008000;
+
+}
+
+header{
+    grid-area: banner;
+    background-color: blueviolet;
+    /*background-image: url(../imagens/banner.png);*/
+}
+
+section{
+    grid-area: section;
+    background-color:#e3e3e3;
+}
+
+section .menu{
+    background-color: white;
+    height: 100vw;
+}
+
+
+footer{
+    grid-area: footer;
+    background-color:#e3e3e3;
+
+}
+
+footer .descricao{
+    background-color: white;
+    height: 100vw;
+}
+
