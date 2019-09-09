@@ -44,3 +44,51 @@ footer .descricao{
     height: 100vw;
 }
 
+    grid-template-areas: "nav"
+                        "banner"
+                        "header"
+                        "section"
+                        "footer" ;
+    grid-template-columns: 99,7%;
+    grid-template-rows: 2vw 70vw 50vw 30vw 20vw;
+    margin: 0;
+ 
+}
+header{
+    grid: header;
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-around;
+
+}
+.ico-hea{
+    background-image: url(../imagens/icone1.png) ;
+    height: 50px;
+    width: 50px;
+}
+.ico-hea2{
+    background-image: url(../imagens/icone2.png) ;
+    height: 50px;
+    width: 50px ;
+}
+.ico-hea3{
+    background-image: url(../imagens/icone3.png) ;
+    height: 50px;
+    width: 50px ;
+}
+nav{
+    background-color: yellow;
+    display: flex;
+    grid: nav;
+    height: 10px;
+}
+section{
+    background-color: lightgray;
+    grid: section;
+}
+section .menu{
+    
+}
+footer{
+    background-color: lightpink;
+}
